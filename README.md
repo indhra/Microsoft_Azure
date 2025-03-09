@@ -14,4 +14,19 @@
    2. there is no proper structure in which this data is represented
 
 
-#
+# Data Stores
+Two broad categories of data store 
+1. File stores
+   1. Specific file format used to store data depends on a number of factors
+   2. common file formats
+      1. Delimited text files; csv
+      2. JSON; JavaScript Object Notation
+      3. Binary Large Object ; BLOB
+         1. ultimately, all files are stored as binary data 1's and 0's
+         2. however like above we need data to be human interpretable
+         3. common types of dat stored as binary include images, video , audio 
+      4. Optimized file formats
+         1. above file formats are user friendly but not optimized for storage
+         2. we need specialized formats for storing data in a way that it is optimized for storage
+         3. like; parquet, avro, orc
+2. Databases
